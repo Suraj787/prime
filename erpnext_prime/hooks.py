@@ -88,11 +88,9 @@ app_license = "MIT"
 # }
 
 doc_events = {
-	
 	"Sales Invoice": {
-		"after_insert": "erpnext_prime.sales_invoice_sms.sales_invoice_sms.customer_sms"
-	}	
-		
+		"after_insert": "erpnext_prime.erpnext_prime.sales_invoice_sms.sales_invoice_sms.customer_sms"
+	}
 }
 
 # Scheduled Tasks
