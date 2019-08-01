@@ -90,7 +90,7 @@ app_license = "MIT"
 doc_events = {
 	
 	"Sales Invoice": {
-		"after_insert": "erpnext_prime.sales_invoice_sms.sales_invoice_sms.custoemr_sms"
+		"after_insert": "erpnext_prime.sales_invoice_sms.sales_invoice_sms.customer_sms"
 	}	
 		
 }
